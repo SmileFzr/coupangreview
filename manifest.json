@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Coupang 评论记录助手",
+  "version": "1.6.1",
+  "description": "自动抓取并导出 Coupang 商品评论（支持中文翻译）",
+
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+
+  "permissions": ["storage"],
+  "host_permissions": ["https://*.coupang.com/*"],
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.coupang.com/vp/products/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Coupang 评论助手"
+  }
+}
