@@ -1,0 +1,2 @@
+# coupangreview
+coupang韩国电商平台评论导出浏览器插件
