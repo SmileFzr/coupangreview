@@ -5,9 +5,9 @@
   "description": "自动抓取并导出 Coupang 商品评论（支持中文翻译）",
 
   "icons": {
-    "16": "icons/16.png",
-    "48": "icons/48.png",
-    "128": "icons/128.png"
+    "16": "16.png",
+    "48": "48.png",
+    "128": "128.png"
   },
 
   "permissions": ["storage"],
@@ -25,4 +25,5 @@
     "default_popup": "popup.html",
     "default_title": "Coupang 评论助手"
   }
+
 }
